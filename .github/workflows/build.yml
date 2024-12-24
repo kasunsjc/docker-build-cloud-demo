@@ -22,7 +22,7 @@ jobs:
         with:
           version: "lab:latest"
           driver: cloud
-          endpoint: "kasunrajapakse/build-demo-01"
+          endpoint: "kasunrajapakse/build-cloud-agent-01"
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
